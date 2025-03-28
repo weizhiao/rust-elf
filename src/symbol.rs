@@ -17,7 +17,7 @@ pub struct Elf32_Sym {
     pub st_size: u32,
     pub st_info: u8,
     pub st_other: u8,
-    pub st_shndx: u32,
+    pub st_shndx: u16,
 }
 
 /// C-style 64-bit ELF Symbol definition
